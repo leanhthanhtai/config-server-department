@@ -1,10 +1,8 @@
-welcome:"Le Van Tai"
+welcome: "LE Van Tai"
 eureka:
   client:
-    register-with-eureka:
-      value: true
-    fetch-registry:
-      value: true;
+    fetch-registry: true
+    register-with-eureka: true
     service-url:
       defaultZone: http://localhost:8761/eureka
     instance:
